@@ -16,13 +16,13 @@ This is a Flask-based quiz application that allows users to create quizzes, add 
    ```shell
    git clone <repository_url>
    
-Navigate to the project directory:
+## Navigate to the project directory:
 cd <project_directory>
 
-Create a virtual environment (optional):
+## Create a virtual environment (optional):
 python -m venv venv
 
-Activate the virtual environment (optional):
+## Activate the virtual environment (optional):
 For Windows:
 venv\Scripts\activate
 
@@ -30,18 +30,18 @@ For Unix or Linux:
 source venv/bin/activate
 
 
-Install the required dependencies:
+## Install the required dependencies:
 pip install -r requirements.txt
 
 
-Usage
-Start the Flask development server:
+## Usage
+### Start the Flask development server:
 python run.py
 Open your web browser and navigate to http://localhost:5000 to access the Quiz App.
 
 Use the app to create new quizzes, add questions, and test your knowledge by answering the questions.
 
-File Structure:
+## File Structure:
 
 `/app directory: Contains the Flask application code.
 /__init__.py: Initializes the Flask app and sets up the database.
@@ -57,7 +57,7 @@ File Structure:
 /run.py: Entry point for running the Flask app.
 /requirements.txt: Specifies the required Python dependencies for the app.`
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for more information.
 
 Make sure to replace `<repository_url>` and `<project_directory>` with the appropriate values for your project.
